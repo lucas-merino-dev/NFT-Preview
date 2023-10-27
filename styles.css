@@ -1,0 +1,122 @@
+:root {
+    
+--Soft-blue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+--Very-dark-blue-backg: hsl(217, 54%, 11%);
+--Very-dark-blue-card: hsl(216, 50%, 16%);
+--Very-dark-blue: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+
+font-size: 18px;
+margin: 0;
+padding: 0;
+
+background-color: var(--Very-dark-blue-backg);
+
+font-family: "Outfit";
+
+}
+
+    .card {
+        width: 350px;
+        background-color: var(--Very-dark-blue-card);
+        box-shadow: 15px 15px 15px 15px hsl(215, 52%, 9%);
+        border-radius: 1rem;
+        margin: auto;
+        margin-top: 3rem;
+        text-align: center;
+        padding: 1rem 0 0 0 ;
+        }
+
+    .image {
+        width: 300px;
+        border-radius: 0.5rem;
+        position: relative;
+    }
+
+    .image:hover {
+        background: url(./images/image-equilibrium2.jpg);
+        content: url(./images/icon-view.svg);
+        cursor: pointer;
+        transition: 0.5s;
+        opacity: 0.1;
+        transform: scale(1.05);
+    }
+
+    .text {
+        padding: 1.35rem;
+        padding-top: 0.5rem;
+    }
+
+    .nft {
+        color: var(--White);
+        text-align: left;
+        font-size: 1.5rem;
+    }
+
+    .description {
+        font-size: 1rem;
+        color: var(--Soft-blue);
+        font-weight: 300;
+        text-align: left;
+        opacity: 0.5;
+    }
+
+    .row {
+        display: inline;
+    }
+
+    .balance {
+        text-align: left;
+        display: inline-block;
+        padding-right: 4.9rem;
+        color: var(--Cyan);
+    }
+
+    .days {
+        text-align: right;
+        display: inline-block;
+        color: var(--Soft-blue);
+        opacity: 0.5;
+    }
+
+    .line {
+        border: 1px var(--Soft-blue);
+        border-style: groove;
+        opacity: 0.5;
+    }
+
+    .creator {
+        padding: 1rem;
+        padding-bottom: 0.5rem;
+        padding-left: 0;
+        text-align: left;
+    }
+
+    .avatar {
+        width: 30px;
+        border: 1px solid var(--White);
+        border-radius: 2rem;
+        float: left;
+    }
+
+    .creation {
+        padding-top: 0.18rem;
+    }
+
+    .first {
+        color: var(--Soft-blue);
+        display: inline;
+        padding-left: 1rem;
+    }
+
+    .second {
+        color: var(--White);
+        display: inline;
+    }
+
+    .second:hover {
+        color: var(--Cyan);
+        cursor: pointer;
+    }
+
